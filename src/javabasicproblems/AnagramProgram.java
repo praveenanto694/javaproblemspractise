@@ -19,7 +19,6 @@ public class AnagramProgram {
 			System.out.println("The given strings are anagram");
 		else
 			System.out.println("The given strings are not an anagram");
-		
 	}
 
 }
