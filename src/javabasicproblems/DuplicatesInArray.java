@@ -5,7 +5,6 @@ import java.util.Map;
 
 public class DuplicatesInArray 
 {
-
 	public static void main(String[] args) 
 	{
 		String input = "Java";
@@ -22,10 +21,8 @@ public class DuplicatesInArray
 			Character temp = m.getKey();
 			if((temp == 'a' ||temp == 'e' ||temp == 'i' ||temp == 'o' ||temp == 'u') && m.getValue() > 1)
 			{
-					System.out.println(m.getKey() + " " );
+					System.out.print(m.getKey() + " " );
 			}
 		}
-
 	}
-
 }
