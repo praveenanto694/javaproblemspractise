@@ -7,7 +7,7 @@ public class AnagramProgram {
 	public static void main(String[] args) 
 	{
 		String ss1 = "listen";
-		String ss2 = "silene";
+		String ss2 = "silent";
 		
 		char[] ss1array = ss1.toCharArray();
 		char[] ss2array = ss2.toCharArray();
